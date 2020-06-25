@@ -1,0 +1,126 @@
+/* reset do site */
+* {
+  margin: 5;
+  padding: 5;
+  box-sizing: border-box;
+}
+
+body {
+  padding-left: 0.5em; /*IMPORTANTE POIS MUDA A BORDA LATERAL DO SITE TD */
+  background: linear-gradient(to bottom, #9785D3, #9785D3, #DFC2F3, #E3C7E3, #F8E197, #F8E197, #F8E197, #E3C7E3, #DFC2F3, #7C6FBF);
+  background-size: 500vh;
+  font-family: Arial;
+  height: 1200vh;
+  width: 100vh;
+  font-size: 30px;
+}
+
+header {
+  height: 50vh;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 1.3em;
+  font-family: 'Source Sans Pro', sans-serif;
+  position:relative;
+  left: 9%;
+}
+
+header h1 {
+  line-height: 100px;
+}
+
+header h2{
+  font-size: 32px;
+  word-spacing: 2px;
+}
+
+.img-nome-logo {
+  height: 90px;
+  padding-top: 1.5em;
+  position: relative;
+  right: 28%;
+  top: 30%;
+  left: 8%;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5em;
+  grid-template-columns: 200px 200px 180px 180px;
+  justify-content: flex-start;
+  font-size: 10px;
+}
+
+.logo {
+  padding-top: 2.2em;
+  position: relative;
+  left: 7%;
+}
+
+.img-logo {
+  height: 220px;
+  -webkit-filter: drop-shadow(12px 12px 8px rgba(0, 0, 0, 0.16));
+  filter: drop-shadow(12px 12px 8px rgba(0, 0, 0, 0.16));
+}
+
+.img-icones {
+  width: 630px;
+  margin-right: -50%;
+  transform: translate(155%, -90%);
+  object-fit: cover;
+  object-position: center;
+}
+
+a{
+  text-decoration: none;
+  background-color: #FFBC2B;
+  height: 60px;
+  border-radius: 80px 80px;
+  color: whitesmoke;
+  font-size: 3em;
+  border-style: none;
+  width: 80px;
+  padding-bottom: 5px;
+  padding-top: 12px;
+  padding-left: 75px;
+  padding-right: 75px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  object-position: right;
+  float: right;
+
+}
+
+.botao1,
+.botao2 {
+  position: relative;
+  left: 620%;
+  width: 20px;
+  top: -20%;
+}
+
+.rectangle{
+  padding-top: 2.3em;
+  width: 200%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.rectangle h2 {
+  background-color: whitesmoke;
+  border-left: 5px solid #7569B8;
+  border-right: 5px solid #7569B8;
+  border-top: 5px solid #7569B8;
+  border-bottom: 5px solid #7569B8;
+  border-radius: 30px;
+  color: #49779D;
+  display: flex;
+  justify-content: center;
+  line-height: 1.8em;
+  font-size: 2.1em;
+
+
+}
